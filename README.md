@@ -23,6 +23,10 @@ To use this terminal program, simply pass it a csv file. It will print the resul
 $ cargo run -- transactions.csv > accounts.csv
 ```
 
+### Tests
+
+Unit tests have been added in the `src/services.rs` file.
+
 ### TODOS:
 Unfortunately I did not have time to get to appropriate error handling. Ideally I would have built
 a base error enum and returned specific errors. I've instead left TODOs for now in places where errors
